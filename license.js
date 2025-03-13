@@ -12,6 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
         if (data.status !== "success") {
             alert("License Error: " + data.message);
             console.error("License Error:", data.message);
+            document.body.innerHTML = '<div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center;">Please go to the theme editor. You must perform an action there.</div>';
         } else {
             console.log("License Valid: ", data.message);
         }
