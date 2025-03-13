@@ -16,14 +16,13 @@ Shopify-Theme-License-Manager
 
 
     🔹 How to Use?
-    Upload the /license-system folder to your Shopify theme assets.
-    Include the script in theme.liquid (before </body>):
-    liquid
-    Copy
-    Edit
-    <script src="{{ 'license.js' | asset_url }}"></script>
-    Test by opening your store and checking the browser console.
+        Upload the /license-system folder to your Shopify theme assets.
+        Include the script in theme.liquid (before </body>):
+        liquid Copy Edit
+       <script src="{{ 'license.js' | asset_url }}"></script>
+       Test by opening your store and checking the browser console.
+       
     🔹 Next Steps
-    Want to generate licenses dynamically? I can add a PHP file for that.
-    Need a license activation page? I can create a form for adding new licenses.
-    Want encrypted licenses? I can implement hash-based validation.
+        Want to generate licenses dynamically? I can add a PHP file for that.
+        Need a license activation page? I can create a form for adding new licenses.
+        Want encrypted licenses? I can implement hash-based validation.
