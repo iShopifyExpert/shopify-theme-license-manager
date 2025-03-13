@@ -1,0 +1,14 @@
+{
+    "licenses": [
+        {
+            "key": "ABC123-XYZ789",
+            "domain": "example.com",
+            "expires": "2025-12-31"
+        },
+        {
+            "key": "DEF456-GHI012",
+            "domain": "shop.mystore.com",
+            "expires": "2026-01-15"
+        }
+    ]
+}
